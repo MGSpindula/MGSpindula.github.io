@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    rotate: -1deg;
 }
 
 #sign_ilyr div {
@@ -20,6 +21,7 @@
     text-align: center;
     font-size: 50px;
     position: absolute;
+    rotate: 1deg;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(1) {
