@@ -69,4 +69,21 @@
     rotate: 28deg;
 }
 
-@import url('https://fonts.cdnfonts.com/css/adlery-pro');
+@font-face {
+    font-family: 'Adlery Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Adlery Pro'), url('https://fonts.cdnfonts.com/s/38357/AdleryPro-xD7K.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adlery Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Adlery Pro'), url('https://fonts.cdnfonts.com/s/38357/AdleryProSwash-D7OW.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adlery Pro';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Adlery Pro'), url('https://fonts.cdnfonts.com/s/38357/AdleryProBlockletter-pW8K.woff') format('woff');
+}
