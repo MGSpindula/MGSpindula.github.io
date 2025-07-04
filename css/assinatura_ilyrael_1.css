@@ -1,27 +1,27 @@
 #sign_ilyr {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  margin: 40px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 45px 0;
 }
 
 #sign_ilyr #sign_ilyr_container {
-    background-image: url(https://i.imgur.com/jaOQoUv.png);
-    width: 500px;
-    height: 272px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    rotate: -1deg;
+  background-image: url(https://i.imgur.com/jaOQoUv.png);
+  width: 500px;
+  height: 272px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  rotate: -1deg;
 }
 
 #sign_ilyr div {
-    font-family: 'Adlery Pro', sans-serif;
-    color: #fff;
-    text-align: center;
-    font-size: 50px;
-    position: absolute;
-    rotate: 1deg;
+  font-family: "Adlery Pro", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+  rotate: 1deg;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(1) {
@@ -41,30 +41,30 @@
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(2) span {
-    font-size: 80px;
+  font-size: 80px;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(2) span:first-of-type {
-    position: relative;
-    bottom: -7px;
+  position: relative;
+  bottom: -7px;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(3) {
-    width: 163px;
-    height: 300px;
-    background-image: url(https://i.imgur.com/Tt28X3N.png);
-    background-size: contain;
-    left: -81px;
-    bottom: 10px;
-    rotate: -6deg;
+  width: 163px;
+  height: 300px;
+  background-image: url(https://i.imgur.com/3M03zLP.png);
+  background-size: contain;
+  left: -74px;
+  bottom: 10px;
+  rotate: -6deg;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(4) {
-    width: 187px;
-    height: 141px;
-    background-image: url(https://i.imgur.com/lWu8M3h.png);
-    background-size: contain;
-    right: -64px;
-    top: -35px;
-    rotate: 28deg;
+  width: 187px;
+  height: 141px;
+  background-image: url(https://i.imgur.com/q4IMnnu.png);
+  background-size: contain;
+  right: -64px;
+  top: -35px;
+  rotate: 28deg;
 }
