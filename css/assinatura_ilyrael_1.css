@@ -6,9 +6,10 @@
 }
 
 #sign_ilyr #sign_ilyr_container {
-  background-image: url(https://i.imgur.com/jaOQoUv.png);
-  width: 500px;
-  height: 272px;
+  background-image: url(https://i.imgur.com/lXyDWFz.png);
+  background-size: cover;
+  width: 400px;
+  height: 217px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -19,52 +20,61 @@
   font-family: "Adlery Pro", sans-serif;
   color: #fff;
   text-align: center;
-  font-size: 50px;
+  font-size: 43px;
   position: absolute;
   rotate: 1deg;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(1) {
-  top: 0px;
-  line-height: 60px;
+  top: -7px;
+  line-height: 55px;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(1) span:first-of-type {
-  font-size: 84px;
+  font-size: 68px;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(2) {
-  font-size: 50px;
-  bottom: -18px;
+  font-size: 41px;
+  bottom: -15px;
   margin-left: -5px;
-  line-height: 50px;
+  line-height: 40px;
+  display: flex;
+  z-index: 1;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(2) span {
-  font-size: 80px;
+  font-size: 70px;
 }
 
-#sign_ilyr #sign_ilyr_container div:nth-child(2) span:first-of-type {
+#sign_ilyr #sign_ilyr_container div:nth-child(2) span:nth-of-type(1) {
   position: relative;
-  bottom: -7px;
+    bottom: -5px;
+    left: 7px;
+}
+
+#sign_ilyr #sign_ilyr_container div:nth-child(2) span:nth-of-type(2) {
+  align-self: flex-end;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(3) {
-  width: 163px;
-  height: 300px;
-  background-image: url(https://i.imgur.com/3M03zLP.png);
+  width: 133px;
+  height: 247px;
+  background-image: url(https://i.imgur.com/xOr20v5.png);
   background-size: contain;
-  left: -74px;
+  left: -59px;
   bottom: 10px;
   rotate: -6deg;
+  pointer-events: none;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(4) {
-  width: 187px;
-  height: 141px;
-  background-image: url(https://i.imgur.com/q4IMnnu.png);
+  width: 160px;
+  height: 120px;
+  background-image: url(https://i.imgur.com/LpWuC7V.png);
   background-size: contain;
   right: -64px;
   top: -35px;
   rotate: 28deg;
+  pointer-events: none;
 }
