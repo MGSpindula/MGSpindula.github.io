@@ -146,6 +146,7 @@
   rotate: 4deg;
   display: flex;
   align-items: center;
+  z-index: 1;
 }
 
 #ily_1 .ily_paper {
