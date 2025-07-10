@@ -92,6 +92,7 @@
   width: 279px;
   height: 470px;
   position: absolute;
+  z-index: 100;
 }
 
 #ily_1 #ily_texto {
