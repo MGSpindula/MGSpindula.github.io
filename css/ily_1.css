@@ -62,7 +62,7 @@
 #ily_1 #ily_header #ily_titulo {
   font-family: "Hello Script", sans-serif;
   color: #fdeedb;
-  font-size: 2.5em;
+  font-size: 3em;
   text-align: center;
   margin-bottom: 10px;
   line-height: .79em;
@@ -71,9 +71,10 @@
 #ily_1 #ily_header #ily_subtitulo {
   font-family: "Young Serif", sans-serif;
   color: #fdeedb;
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
   max-width: calc(100% - 100px);
+  line-height: 1.2em;
 }
 
 #ily_1 #ily_header #ily_divisor {
