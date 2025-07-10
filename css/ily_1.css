@@ -116,7 +116,7 @@
   width: 100%;
   background: var(--ily-1-bg-texto);
   box-shadow: var(--ily-1-bg-box-shadow);
-  filter: url(#torn);
+  filter: url(#ily_torn);
   z-index: -1;
 }
 
