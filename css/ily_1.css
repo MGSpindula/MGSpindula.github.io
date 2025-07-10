@@ -1,3 +1,7 @@
+.content:has(#ily_1) {
+  overflow: visible;
+}
+
 #ily_1 {
   --ily-1-font_small: 0.7em;
   --ily-1-font_normal: 0.9em;
@@ -191,7 +195,6 @@
 
 .ily_wrapper {
   position: relative;
-  overflow-x: clip;
 }
 
 .ily_control_panel {
