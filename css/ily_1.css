@@ -203,11 +203,11 @@
 }
 
 .ily_button_group input {
-  display: none!important;
+  display: none !important;
 }
 
 #ily_1 input[type="radio"] {
-  display: none!important;
+  display: none !important;
 }
 
 .ily_button_group label {
@@ -224,12 +224,12 @@
   color: #fff;
 }
 
-.ily_wrapper input#ily_theme_light:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_ily_theme_light"],
-.ily_wrapper input#theme_dark:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_theme_dark"],
-.ily_wrapper input#font_small:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_small"],
-.ily_wrapper input#font_normal:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_normal"],
-.ily_wrapper input#font_large:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_large"],
-.ily_ily_button_group input:checked+label {
+.ily_wrapper input#ily_theme_light:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_theme_light"],
+.ily_wrapper input#ily_theme_dark:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_theme_dark"],
+.ily_wrapper input#ily_font_small:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_small"],
+.ily_wrapper input#ily_font_normal:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_normal"],
+.ily_wrapper input#ily_font_large:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_large"],
+.ily_button_group input:checked+label {
   background: var(--ily-1-button--active);
   color: #fff;
   border-color: #666;
