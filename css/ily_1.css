@@ -121,7 +121,7 @@
   z-index: 1;
 }
 
-#ily_1 #ily_texto div:first-of-type {
+#ily_1 #ily_texto #ily_wrapper_texto {
   position: relative;
   z-index: 100;
 }
