@@ -203,7 +203,11 @@
 }
 
 .ily_button_group input {
-  display: none !important;
+  display: none!important;
+}
+
+#ily_1 input[type="radio"] {
+  display: none!important;
 }
 
 .ily_button_group label {
