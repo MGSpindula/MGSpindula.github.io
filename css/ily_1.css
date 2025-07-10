@@ -1,0 +1,265 @@
+body {
+  background: #000;
+}
+
+#ily_1 {
+  --ily-1-font_small: 0.7em;
+  --ily-1-font_normal: 0.9em;
+  --ily-1-font_large: 1.2em;
+  --ily-1-bg-color: #121212;
+  --ily-1-bg-texto: url(https://img.freepik.com/free-vector/detailed-dark-grunge-style-texture-background_1048-14598.jpg);
+  --ily-1-bg-box-shadow: 0 0 0 0.04em #313131, 0.2em 0.2em 0.8em -0.2em #141414, 0 0 8em #0a0a0a inset;
+  --ily-1-text-color: #fdeedb;
+  --ily-1-destaque--1-text-color: #f47e57;
+  --ily-1-destaque--2-text-color: #f47e57;
+  --ily-1-content--text-color: #fdeedb;
+  --ily-1-panel--bg: #1f1f1f;
+  --ily-1-panel--border: #333;
+  --ily-1-button--bg: #2c2c2c;
+  --ily-1-button--border: #444;
+  --ily-1-button--active: #555;
+}
+
+#ily_1 * {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+#ily_theme_light:checked~* {
+  --ily-1-bg-color: #f9f9f9;
+  --ily-1-bg-color: #f9f9f9;
+  --ily-1-text-color: #222;
+  --ily-1-destaque--1-text-color: #d9491a;
+  --ily-1-destaque--2-text-color: #d9491a;
+  --ily-1-content--text-color: #5d3400;
+  --ily-1-bg-texto: url(https://img.freepik.com/free-photo/yellow-concrete-textured-background_53876-63607.jpg);
+  --ily-1-bg-box-shadow: 0 0 0 0.04em #aa937f, 0.2em 0.2em 0.8em -0.2em #150a02, 0 0 8em #452901 inset;
+  --ily-1-panel--border: #ccc;
+  --ily-1-button--bg: #e0e0e0;
+  --ily-1-button--border: #bbb;
+  --ily-1-button--active: #999;
+}
+
+#ily_1 #ily_container {
+  max-width: 800px;
+  min-width: 500px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#ily_1 #ily_header {
+  height: 400px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+#ily_1 #ily_header #ily_titulo_container {
+  margin-right: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ily_1 #ily_header #ily_titulo {
+  font-family: "Hello Script", sans-serif;
+  color: #fdeedb;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: .79em;
+}
+
+#ily_1 #ily_header #ily_subtitulo {
+  font-family: "Young Serif", sans-serif;
+  color: #fdeedb;
+  font-size: 1.5em;
+  text-align: center;
+  max-width: calc(100% - 100px);
+}
+
+#ily_1 #ily_header #ily_divisor {
+  text-align: center;
+  height: 20px;
+}
+
+#ily_1 #ily_header #ily_divisor svg {
+  width: 200px;
+  fill: #fdeedb;
+}
+
+#ily_1 #ily_header #ily_header_img {
+  background: var(--img-url) no-repeat center center / contain;
+  width: 279px;
+  height: 470px;
+  position: absolute;
+}
+
+#ily_1 #ily_texto {
+  padding-inline: 3em;
+  padding-block: 7em 4em;
+  margin-inline: 2em;
+  position: relative;
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: var(--ily-1-content--text-color);
+}
+
+#ily_texto p {
+  text-align: justify;
+}
+
+#ily_1 #ily_texto::after {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  background: var(--ily-1-bg-texto);
+  box-shadow: var(--ily-1-bg-box-shadow);
+  filter: url(#torn);
+  z-index: -1;
+}
+
+#ily_1 #ily_texto span {
+  font-weight: bolder;
+  color: var(--ily-1-destaque--1-text-color);
+}
+
+#ily_1 #ily_footer {
+  width: 300px;
+  min-height: 80px;
+  position: absolute;
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: var(--ily-1-content--text-color);
+  bottom: -100px;
+  right: 12px;
+  rotate: 4deg;
+  display: flex;
+  align-items: center;
+}
+
+#ily_1 .ily_paper {
+  padding: 1em;
+}
+
+#ily_1 .ily_paper::after {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  background: var(--ily-1-bg-texto);
+  box-shadow: var(--ily-1-bg-box-shadow);
+  filter: url(#ily_torn);
+  z-index: -1;
+}
+
+#ily_1 .ily_collage {
+  background: var(--url-ily-collage) no-repeat center center / contain;
+  position: absolute;
+}
+
+#ily_1 a:link {
+  color: var(--ily-1-content--text-color);
+  text-decoration: unset;
+}
+
+#ily_1 a:visited {
+  color: var(--ily-1-content--text-color);
+}
+
+#ily_1 a:hover {
+  color: var(--ily-1-content--text-color);
+  filter: brightness(2);
+}
+
+#ily_1 a:active {
+  color: var(--ily-1-content--text-color);
+}
+
+.ily_wrapper {
+  position: relative;
+  overflow-x: clip;
+}
+
+.ily_control_panel {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  z-index: 1000;
+}
+
+.ily_button_group {
+  background: var(--ily-1-panel--bg);
+  border: 1px solid var(--ily-1-panel--border);
+  padding: 0.4em 0.6em;
+  border-radius: 8px;
+  display: flex;
+  gap: 0.5em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ily_button_group input {
+  display: none;
+}
+
+.ily_button_group label {
+  cursor: pointer;
+  padding: 0.4em 0.6em;
+  background: var(--ily-1-button--bg);
+  border: 1px solid var(--ily-1-button--border);
+  border-radius: 6px;
+  color: #aaa;
+}
+
+.ily_button_group label:hover {
+  background: var(--ily-1-button--border);
+  color: #fff;
+}
+
+.ily_wrapper input#ily_theme_light:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_ily_theme_light"],
+.ily_wrapper input#theme_dark:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_theme_dark"],
+.ily_wrapper input#font_small:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_small"],
+.ily_wrapper input#font_normal:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_normal"],
+.ily_wrapper input#font_large:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_large"],
+.ily_ily_button_group input:checked+label {
+  background: var(--ily-1-button--active);
+  color: #fff;
+  border-color: #666;
+}
+
+/* Font size rules */
+#ily_font_small:checked~* .ily_content {
+  font-size: var(--ily-1-font_small);
+}
+
+#ily_font_normal:checked~* .ily_content {
+  font-size: var(--ily-1-font_normal);
+}
+
+#ily_font_large:checked~* .ily_content {
+  font-size: var(--ily-1-font_large);
+}
+
+.ily_content {
+  max-width: 700px;
+  margin: auto;
+  font-size: var(--ily-1-font_normal);
+  transition: font-size 0.2s ease !important;
+}
+
+.ily_content h1 {
+  color: var(--ily-1-content--text-color);
+}
+
+.ily_content p {
+  line-height: 1.6;
+  color: var(--ily-1-content--text-color);
+}
