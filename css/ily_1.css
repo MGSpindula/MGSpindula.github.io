@@ -168,6 +168,7 @@
 #ily_1 .ily_collage {
   background: var(--url-ily-collage) no-repeat center center / contain;
   position: absolute;
+  pointer-events: none;
 }
 
 #ily_1 a:link {
@@ -231,6 +232,12 @@
 .ily_button_group label:hover {
   background: var(--ily-1-button--border);
   color: #fff;
+}
+
+.ily_button_group audio {
+  background: none;
+  border: none;
+  filter: invert(80%) contrast(110%);
 }
 
 .ily_wrapper input#ily_theme_light:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_theme_light"],
