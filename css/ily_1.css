@@ -94,9 +94,9 @@
 }
 
 #ily_1 #ily_texto {
-  padding-inline: 3em;
-  padding-block: 7em 4em;
-  margin-inline: 2em;
+  padding-inline: 43px;
+  padding-block: 100px 57px;
+  margin-inline: 228px;
   position: relative;
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
@@ -142,7 +142,7 @@
 }
 
 #ily_1 .ily_paper {
-  padding: 1em;
+  padding: 17px;
 }
 
 #ily_1 .ily_paper::after {
@@ -188,17 +188,17 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  gap: 8px;
   z-index: 1000;
 }
 
 .ily_button_group {
   background: var(--ily-1-panel--bg);
   border: 1px solid var(--ily-1-panel--border);
-  padding: 0.4em 0.6em;
+  padding: 6.5px 10px;
   border-radius: 8px;
   display: flex;
-  gap: 0.5em;
+  gap: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -212,7 +212,7 @@
 
 .ily_button_group label {
   cursor: pointer;
-  padding: 0.4em 0.6em;
+  padding: 6.5px 10px;
   background: var(--ily-1-button--bg);
   border: 1px solid var(--ily-1-button--border);
   border-radius: 6px;
