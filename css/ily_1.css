@@ -24,6 +24,10 @@
   transition: background 0.3s ease, color 0.3s ease;
 }
 
+#ily_1 svg {
+  display: none;
+}
+
 #ily_theme_light:checked~* {
   --ily-1-bg-color: #f9f9f9;
   --ily-1-bg-color: #f9f9f9;
@@ -109,6 +113,7 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
   color: var(--ily-1-content--text-color);
+  margin-bottom: 100px;
 }
 
 #ily_texto p {
