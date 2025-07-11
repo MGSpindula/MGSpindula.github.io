@@ -118,6 +118,11 @@
 }
 
 #ily_texto p {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: var(--ily-1-content--text-color);
   text-align: justify;
 }
 
