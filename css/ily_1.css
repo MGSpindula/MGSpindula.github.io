@@ -91,6 +91,7 @@
 }
 
 #ily_1 #ily_header #ily_divisor svg {
+  display: block;
   width: 200px;
   fill: #fdeedb;
 }
