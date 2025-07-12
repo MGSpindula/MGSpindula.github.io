@@ -113,9 +113,13 @@
   box-sizing: border-box;
 }
 
+.riveda-content p {
+font-size: 13.5px !important;
+}
+
 .riveda-content riv {
   font-weight: bold;
-  font-size: 1.05em;
+  font-size: 1em;
   color: var(--riveda-cor-destaques);
   font-style: normal;
   background: none;
@@ -123,7 +127,7 @@
 
 .riveda-content ti {
   font-weight: bold;
-  font-size: 1.05em;
+  font-size: 1em;
   color: var(--riveda-cor-destaques-2);
   font-style: normal;
   background: none;
@@ -141,7 +145,7 @@
   border-radius: 4px;
   font-family: "Sarala", sans-serif;
   color: var(--riveda-cor-texto);
-  font-size: 14px;
+  font-size: 14px !important;
   box-sizing: border-box;
   position: relative;
   z-index: 2;
@@ -157,7 +161,7 @@
   border: 1px solid var(--riveda-cor-borda-botao);
   color: var(--riveda-cor-texto);
   padding: 6px 12px;
-  font-size: 12px;
+  font-size: 12px !important;
   border-radius: 3px;
   cursor: pointer;
   width: 100%;
@@ -183,7 +187,7 @@
     margin-top 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.6;
   text-align: justify;
-  font-size: 12px;
+  font-size: 12px !important;
 }
 
 .riveda-toggle:checked + .riveda-toggle-label + .riveda-toggle-content {
@@ -196,7 +200,7 @@
   content: "✉️"; /* envelope fechado */
   display: inline-block;
   margin-left: 8px;
-  font-size: 18px;
+  font-size: 18px !important;
   vertical-align: middle;
   transition: content 0.3s ease;
 }
