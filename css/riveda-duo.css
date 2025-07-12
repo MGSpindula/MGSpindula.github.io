@@ -60,7 +60,7 @@
   position: relative;
   z-index: 2;
   font-family: "Sarala", sans-serif;
-  font-size: 12px;
+  font-size: 12px !important;
   font-weight: 400;
   letter-spacing: 0.5px;
   word-spacing: 1px;
@@ -70,7 +70,7 @@
 
 .riveda-content-duo b {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1em !important;
   color: var(--riveda-cor-destaques)!important;
   font-style: normal;
   background: none;
