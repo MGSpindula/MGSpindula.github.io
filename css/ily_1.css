@@ -180,6 +180,15 @@
   z-index: -1;
 }
 
+#ily_1 #ily_titulo_musica {
+  max-width: 160px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Neumartha', sans-serif;
+  line-height: 20px;
+  margin: 0px auto -6px auto;
+}
+
 #ily_1 .ily_collage {
   background: var(--url-ily-collage) no-repeat center center / contain;
   position: absolute;
