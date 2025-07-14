@@ -189,6 +189,20 @@
   margin: 0px auto -6px auto;
 }
 
+div#ily_titulo_musica::before {
+  content: "“";
+  font-size: 30px;
+  position: relative;
+  top: 6px;
+}
+
+div#ily_titulo_musica::after {
+  content: "„";
+  font-size: 30px;
+  position: relative;
+  bottom: -13px;
+}
+
 #ily_1 .ily_collage {
   background: var(--url-ily-collage) no-repeat center center / contain;
   position: absolute;
