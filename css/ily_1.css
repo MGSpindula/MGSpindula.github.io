@@ -125,6 +125,7 @@
   font-variation-settings: "wdth" 100;
   color: var(--ily-1-content--text-color);
   text-align: justify;
+  font-weight: 300;
 }
 
 #ily_1 #ily_texto::after {
