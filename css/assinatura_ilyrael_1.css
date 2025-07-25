@@ -32,6 +32,8 @@
 
 #sign_ilyr #sign_ilyr_container div:nth-child(1) span:first-of-type {
   font-size: 68px;
+  margin: 0;
+  padding: 0;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(2) {
@@ -45,6 +47,8 @@
 
 #sign_ilyr #sign_ilyr_container div:nth-child(2) span {
   font-size: 70px;
+  margin: 0;
+  padding: 0;
 }
 
 #sign_ilyr #sign_ilyr_container div:nth-child(2) span:nth-of-type(1) {
