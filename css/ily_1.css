@@ -28,7 +28,7 @@
   display: none;
 }
 
-#ily_theme_light:checked~* {
+.ily_theme_light:checked~* {
   --ily-1-bg-color: #f9f9f9;
   --ily-1-bg-color: #f9f9f9;
   --ily-1-text-color: #222;
@@ -279,27 +279,27 @@ div#ily_titulo_musica::after {
   filter: invert(80%) contrast(110%);
 }
 
-.ily_wrapper input#ily_theme_light:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_theme_light"],
-.ily_wrapper input#ily_theme_dark:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_theme_dark"],
-.ily_wrapper input#ily_font_small:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_small"],
-.ily_wrapper input#ily_font_normal:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_normal"],
-.ily_wrapper input#ily_font_large:checked~#ily_container .ily_control_panel .ily_button_group label[for="ily_font_large"],
-.ily_button_group input:checked+label {
+.ily_wrapper input.ily_theme_light:checked~#ily_container .ily_control_panel .ily_button_group label.label_ily_theme_light,
+.ily_wrapper input.ily_theme_dark:checked~#ily_container .ily_control_panel .ily_button_group label.label_ily_theme_dark,
+.ily_wrapper input.ily_font_small:checked~#ily_container .ily_control_panel .ily_button_group label.label_ily_font_small,
+.ily_wrapper input.ily_font_normal:checked~#ily_container .ily_control_panel .ily_button_group label.label_ily_font_normal,
+.ily_wrapper input.ily_font_large:checked~#ily_container .ily_control_panel .ily_button_group label.label_ily_font_large,
+.ily_wrapper input:checked+label {
   background: var(--ily-1-button--active);
   color: #fff;
   border-color: #666;
 }
 
 /* Font size rules */
-#ily_font_small:checked~* .ily_content {
+.ily_font_small:checked~* .ily_content {
   font-size: var(--ily-1-font_small);
 }
 
-#ily_font_normal:checked~* .ily_content {
+.ily_font_normal:checked~* .ily_content {
   font-size: var(--ily-1-font_normal);
 }
 
-#ily_font_large:checked~* .ily_content {
+.ily_font_large:checked~* .ily_content {
   font-size: var(--ily-1-font_large);
 }
 
