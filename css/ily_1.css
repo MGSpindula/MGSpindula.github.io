@@ -390,7 +390,7 @@ div#ily_titulo_musica::after {
 }
 
 .ily_timeline_entry .ily_timeline_body h3 {
-  margin: 0;
+  margin: 0 0 1em 0;
 }
 
 .ily_timeline_entry .ily_timeline_title p {
