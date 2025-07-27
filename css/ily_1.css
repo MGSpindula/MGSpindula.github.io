@@ -389,6 +389,10 @@ div#ily_titulo_musica::after {
   font-size: 120%;
 }
 
+.ily_timeline_entry .ily_timeline_body h3 {
+  margin: 0;
+}
+
 .ily_timeline_entry .ily_timeline_title p {
   margin: 0;
   font-size: 100%;
@@ -408,6 +412,7 @@ div#ily_titulo_musica::after {
 .ily_timeline_entry .ily_timeline_body p:first-child {
   margin-top: 0;
   font-weight: 400;
+  font-style: italic !important;
 }
 
 .ily_timeline_entry .ily_timeline_body ul {
