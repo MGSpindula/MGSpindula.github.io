@@ -340,7 +340,7 @@ div#ily_titulo_musica::after {
   content: "";
   position: absolute;
   top: 0px;
-  left: calc(35%);
+  left: calc(30%);
   bottom: 0px;
   width: 4px;
   background: var(--ily-1-content--text-color);
@@ -361,7 +361,7 @@ div#ily_titulo_musica::after {
 .ily_timeline_entry .ily_timeline_title {
   margin-bottom: 0.5em;
   float: left;
-  width: 30%;
+  width: 25%;
   padding-right: 5%;
   text-align: right;
   position: relative;
@@ -401,7 +401,7 @@ div#ily_titulo_musica::after {
 .ily_timeline_entry .ily_timeline_body {
   margin: 0 0 3em;
   float: right;
-  width: 60%;
+  width: 65%;
   padding-left: 5%;
 }
 
