@@ -409,7 +409,7 @@ div#ily_titulo_musica::after {
   line-height: 1.4em;
 }
 
-.ily_timeline_entry .ily_timeline_body p:first-child {
+.ily_timeline_entry .ily_timeline_body p:nth-of-type(1) {
   margin-top: 0;
   font-weight: 400;
   font-style: italic !important;
