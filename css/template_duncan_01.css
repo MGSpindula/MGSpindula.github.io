@@ -188,10 +188,9 @@ div#footer_duncan > div:not(:last-child) {
 }
 
 div#footer_duncan > div div {
-    width: 100%;
     padding: 10px;
-
     text-align: justify;
+    font-size: .85em;
 }
 
 div#footer_duncan > div div a {
