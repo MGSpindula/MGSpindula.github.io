@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Lavishly+Yours&family=Noto+Sans:ital@0;1&display=swap');
 
-div#container_duncan_bg {
+#duncan_001 #container_duncan_bg {
     max-width: 800px;
     width: 60%;
     min-width: 500px;
@@ -16,7 +16,7 @@ div#container_duncan_bg {
     border-radius: 40px;
 }
 
-div#container_duncan_bg:hover:after {
+#duncan_001 #container_duncan_bg:hover:after {
     content: 'Gratiluz, eu. ಠ~ಠ';
     position: absolute;
     width: 100%;
@@ -25,7 +25,7 @@ div#container_duncan_bg:hover:after {
     color: #676767;
 }
 
-div#container_duncan {
+#duncan_001 #container_duncan {
     padding: 20px;
     border: 20px solid #00000059;
     outline: 2px solid var(--grupo-50);
@@ -35,7 +35,7 @@ div#container_duncan {
     color: #e9e0c1;
 }
 
-div#container_duncan::before {
+#duncan_001 #container_duncan::before {
     content: "";
     position: absolute;
     top: -1px;
@@ -58,7 +58,7 @@ div#container_duncan::before {
     pointer-events: none;
 }
 
-div#header_duncan {
+#duncan_001 #header_duncan {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +68,7 @@ div#header_duncan {
     padding-top: 15%;
 }
 
-div#header_duncan #titulo_duncan {
+#duncan_001 #header_duncan #titulo_duncan {
     position: relative;
     z-index: 1000;
     max-width: 80%;
@@ -83,7 +83,7 @@ div#header_duncan #titulo_duncan {
     line-height: 61px;
 }
 
-div#header_duncan #titulo_duncan::before {
+#duncan_001 #header_duncan #titulo_duncan::before {
     content: "Duncan Sinclair";
     position: absolute;
     top: -39px;
@@ -101,7 +101,7 @@ div#header_duncan #titulo_duncan::before {
     z-index: -1;
 }
 
-div#subtitulo_duncan {
+#duncan_001 #subtitulo_duncan {
     max-width: 60%;
     text-align: center;
     font-family: "IM Fell English", serif;
@@ -110,7 +110,7 @@ div#subtitulo_duncan {
     font-style: normal;
 }
 
-div#header_duncan .divider {
+#duncan_001 #header_duncan .divider_duncan {
     width: 300px;
     height: 14px;
     margin: 40px 0;
@@ -120,7 +120,7 @@ div#header_duncan .divider {
     opacity: 70%;
 }
 
-div#texto_duncan {
+#duncan_001 #texto_duncan {
     position: relative;
     margin-top: -8px;
     padding: 0 20px;
@@ -131,25 +131,25 @@ div#texto_duncan {
     font-variation-settings: "wdth" 100;
 }
 
-div#texto_duncan p {
+#duncan_001 #texto_duncan p {
     margin-bottom: .7em;
-
     font-size: 1.05em;
     line-height: 1.2em;
+    text-align: justify;
 }
 
-div#texto_duncan p b {
+#duncan_001 #texto_duncan p b {
     color: var(--cor_int, #e9e0c1);
     font-weight: 700;
     filter: brightness(1.2);
     text-shadow: 1px 1px 1px #101010c9, 1px -1px 1px #101010c9, -1px -1px 1px #101010c9, -1px 1px 1px #101010c9
 }
 
-div#texto_duncan p b.dun {
+#duncan_001 #texto_duncan p b.dun {
     color: var(--grupo);
 }
 
-div#texto_duncan p:first-of-type:first-letter {
+#duncan_001 #texto_duncan p:first-of-type:first-letter {
     float: left;
     padding: 0.3em 0.2em;
     font-size: 4em;
@@ -160,20 +160,20 @@ div#texto_duncan p:first-of-type:first-letter {
     text-shadow: 1px 1px 1px #101010c9, 1px -1px 1px #101010c9, -1px -1px 1px #101010c9, -1px 1px 1px #101010c9
 }
 
-.cap_duncan {
+#duncan_001 .cap_duncan {
     margin: 30px auto;
     text-align: center;
     font-size: 1.5em;
 }
 
-div#footer_duncan {
+#duncan_001 #footer_duncan {
     display: flex;
     justify-content: space-around;
     padding: 0 20px;
     text-align: justify;
 }
 
-div#footer_duncan > div {
+#duncan_001 #footer_duncan > div {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -182,18 +182,18 @@ div#footer_duncan > div {
     padding-bottom: 5px;
 }
 
-div#footer_duncan > div:not(:last-child) {
+#duncan_001 #footer_duncan > div:not(:last-child) {
     max-width: 25%;
     border-right: 2px solid var(--groupbody-75);
 }
 
-div#footer_duncan > div div {
+#duncan_001 #footer_duncan > div div {
     padding: 10px;
     text-align: justify;
     font-size: .85em;
 }
 
-div#footer_duncan > div div a {
+#duncan_001 #footer_duncan > div div a {
     color: var(--grupo);
     font-weight: 700;
     filter: brightness(1.2);
@@ -202,6 +202,6 @@ div#footer_duncan > div div a {
     transition: 0.5s;
 }
 
-div#footer_duncan > div div a:hover {
+#duncan_001 #footer_duncan > div div a:hover {
     filter: brightness(1.7);
 }
