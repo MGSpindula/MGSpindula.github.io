@@ -182,6 +182,10 @@
     margin-bottom: 20px;
 }
 
+#duncan_001 #exp_duncan b {
+    color: var(--grupo);
+}
+
 #duncan_001 #footer_duncan {
     display: flex;
     justify-content: space-around;
