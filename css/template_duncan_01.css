@@ -210,14 +210,21 @@
 }
 
 #duncan_001 #footer_duncan > div div a {
-    color: var(--grupo);
     font-weight: 700;
     filter: brightness(1.2);
     border-bottom: unset !important;
     text-shadow: unset !important;
+}
+
+#duncan_001 #footer_duncan > div div a,
+#duncan_001 #footer_duncan > div div b {
+    color: var(--grupo);
     transition: 0.5s;
 }
 
-#duncan_001 #footer_duncan > div div a:hover {
+#duncan_001 #footer_duncan > div div a:hover,
+#duncan_001 #footer_duncan > div div b:hover{
+    color: var(--cor_int, var(--grupo));
     filter: brightness(1.7);
 }
+
