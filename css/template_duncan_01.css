@@ -133,6 +133,7 @@
 
 #duncan_001 #texto_duncan p {
     margin-bottom: .7em;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1em;
     line-height: 1.2em;
     text-align: justify;
@@ -141,12 +142,12 @@
 #duncan_001 #texto_duncan p b {
     color: var(--cor_int, #e9e0c1);
     font-weight: 700;
-    filter: brightness(1.2);
     text-shadow: 1px 1px 1px #101010c9, 1px -1px 1px #101010c9, -1px -1px 1px #101010c9, -1px 1px 1px #101010c9
 }
 
 #duncan_001 #texto_duncan p.dun b {
     color: var(--grupo);
+    filter: brightness(1.2);
 }
 
 #duncan_001 #texto_duncan p:first-of-type:first-letter {
@@ -162,7 +163,12 @@
 
 #duncan_001 span.transl_duncan {
     font-weight: 400;
-    color: #454545;
+    color: #656565;
+    transition: 0.5s;
+}
+
+#duncan_001 span.transl_duncan:hover {
+    color: #e9e0c1;
 }
 
 #duncan_001 .cap_duncan {
