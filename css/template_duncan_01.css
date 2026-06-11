@@ -171,6 +171,11 @@
     font-size: 1.5em;
 }
 
+#duncan_001 #exp_duncan {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
 #duncan_001 #footer_duncan {
     display: flex;
     justify-content: space-around;
