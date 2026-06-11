@@ -139,8 +139,14 @@
     text-align: justify;
 }
 
-#duncan_001 #texto_duncan p b {
+#duncan_001 #texto_duncan p b,
+#duncan_001 #texto_duncan p i,
+#duncan_001 #texto_duncan p s,
+#duncan_001 #texto_duncan p u{
     color: var(--cor_int, #e9e0c1);
+}
+
+#duncan_001 #texto_duncan p b {
     font-weight: 700;
     text-shadow: 1px 1px 1px #101010c9, 1px -1px 1px #101010c9, -1px -1px 1px #101010c9, -1px 1px 1px #101010c9
 }
