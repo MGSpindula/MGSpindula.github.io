@@ -223,7 +223,8 @@
     font-size: .85em;
 }
 
-#duncan_001 #footer_duncan > div div a {
+#duncan_001 #footer_duncan > div div a,
+#duncan_001 .duncan_timeline a {
     font-weight: 700;
     filter: brightness(1.2);
     border-bottom: unset !important;
@@ -231,7 +232,8 @@
 }
 
 #duncan_001 #footer_duncan > div div a,
-#duncan_001 #footer_duncan > div div b {
+#duncan_001 #footer_duncan > div div b,
+#duncan_001 .duncan_timeline a:hover {
     color: var(--grupo);
     transition: 0.5s;
 }
@@ -248,19 +250,11 @@
   padding-top: 50px;
 }
 
-#duncan_001 .duncan_timeline a {
-  color: var(--grupo);
-}
-
-#duncan_001 .duncan_timeline a:hover {
-  filter: brightness(1.2);
-}
-
 #duncan_001 .duncan_timeline:before {
   content: "";
   position: absolute;
   top: 0px;
-  left: calc(30% + 4px);
+  left: calc(30%);
   bottom: 0px;
   width: 4px;
   background: #e9e0c1;
