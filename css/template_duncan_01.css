@@ -242,3 +242,114 @@
     filter: brightness(1.7);
 }
 
+#duncan_001 .duncan_timeline {
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+
+#duncan_001 .duncan_timeline a {
+  color: var(--grupo);
+}
+
+#duncan_001 .duncan_timeline a:hover {
+  filter: brightness(1.2);
+}
+
+#duncan_001 .duncan_timeline:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: calc(30% + 4px);
+  bottom: 0px;
+  width: 4px;
+  background: #e9e0c1;
+}
+
+#duncan_001 .duncan_timeline:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#duncan_001 .duncan_timeline_entry {
+  clear: both;
+  text-align: left;
+  position: relative;
+}
+
+#duncan_001 .duncan_timeline_entry .duncan_timeline_title {
+  margin-bottom: 0.5em;
+  float: left;
+  width: 25%;
+  padding-right: 5%;
+  text-align: right;
+  position: relative;
+}
+
+#duncan_001 .duncan_timeline_entry .duncan_timeline_title p {
+  text-align: right !important;
+}
+
+#duncan_001 .duncan_timeline_entry .duncan_timeline_title:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 4px solid var(--grupo);
+  background-color: #e9e0c1;
+  border-radius: 100%;
+  top: 15%;
+  right: -10px;
+  z-index: 99;
+}
+
+#duncan_001 .duncan_timeline_entry .duncan_timeline_title h3 {
+  margin: 0;
+  font-size: 120%;
+}
+
+#duncan_001 .duncan_timeline_entry .duncan_timeline_body h3 {
+  margin: 0 0 1em 0;
+  font-family: "IM Fell English", serif;
+  color: #e9e0c1;
+}
+
+#duncan_001 .duncan_timeline_entry .duncan_timeline_title p {
+  margin: 0;
+  font-size: 100%;
+  font-family: "IM Fell English", serif;
+  color: #e9e0c1;
+}
+
+#duncan_001 .duncan_timeline_entry .duncan_timeline_body {
+  margin: 0 0 3em;
+  float: right;
+  width: 60%;
+  padding: 0 5%;
+  text-align: justify;
+}
+
+#duncan_001 .duncan_timeline_entry .duncan_timeline_body p {
+  line-height: 1.4em;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+}
+
+#duncan_001 .duncan_timeline_entry .duncan_timeline_body p:nth-of-type(1) {
+  margin-top: 0;
+  font-weight: 400;
+  font-style: italic !important;
+}
+
+#duncan_001 .duncan_timeline_entry .duncan_timeline_body ul {
+  color: #e9e0c1;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#duncan_001 .duncan_timeline_entry .duncan_timeline_body ul li:before {
+  content: "–";
+  color: var(--grupo);
+  margin-right: 0.5em;
+}
