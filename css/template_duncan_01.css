@@ -204,7 +204,7 @@
   transition: 0.5s;
 }
 
-#duncan_001 span.transl_duncan:hover {
+#duncan_001 p:hover > b span.transl_duncan {
   color: var(--text-color);
 }
 
