@@ -370,6 +370,10 @@
   list-style: none;
 }
 
+#duncan_001 .duncan_timeline_entry .duncan_timeline_body ul li {
+  list-style-type: none;
+}
+
 #duncan_001 .duncan_timeline_entry .duncan_timeline_body ul li:before {
   content: "–";
   color: var(--grupo);
